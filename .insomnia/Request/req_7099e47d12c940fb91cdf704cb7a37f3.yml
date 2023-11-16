@@ -1,0 +1,23 @@
+_id: req_7099e47d12c940fb91cdf704cb7a37f3
+type: Request
+parentId: wrk_06cfb846156c49ffb3373cb93dd5e899
+modified: 1700130717361
+created: 1700130700363
+url: https://petstore.swagger.io/v2/user/FNLN10
+name: New Request
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/8.4.2
+authentication: {}
+metaSortKey: -1700130700363
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
