@@ -11,7 +11,7 @@ jobs:
         with:
           inso-version: 2.4.0
       - name: Lint
-        run: inso lint spec "Swagger Petstore" --ci
+        run: inso lint spec "Swagger Petstore 1.0.6" --ci
       - name: Run test suites
         run: inso run test "Demo Project" --env UnitTest --ci
       - name: Generate declarative config
