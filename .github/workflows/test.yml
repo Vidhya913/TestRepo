@@ -14,4 +14,4 @@ jobs:
       - name: Run test suites
         run: inso run test uts_4d41bf --env UnitTest --ci
       - name: Generate declarative config
-        run: inso generate config "Demo Project" --type declarative --ci
+        run: inso generate config "Swagger Petstore 1.0.6" --type declarative --ci
