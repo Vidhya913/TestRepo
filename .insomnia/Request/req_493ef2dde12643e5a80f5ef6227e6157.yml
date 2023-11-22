@@ -1,0 +1,37 @@
+_id: req_493ef2dde12643e5a80f5ef6227e6157
+type: Request
+parentId: wrk_06cfb846156c49ffb3373cb93dd5e899
+modified: 1700642166453
+created: 1700448386467
+url: "{{url}}/v2/user"
+name: createUser
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "id": 1024,
+      "username": "FNLN24",
+      "firstName": "FN24",
+      "lastName": "LN24",
+      "email": "FNLN24@gmail.com",
+      "password": "string",
+      "phone": "string",
+      "userStatus": 0
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/8.4.2
+authentication: {}
+metaSortKey: -1700448386467
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
