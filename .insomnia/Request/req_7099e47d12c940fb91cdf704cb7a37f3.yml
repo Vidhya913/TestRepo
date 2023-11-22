@@ -1,9 +1,9 @@
 _id: req_7099e47d12c940fb91cdf704cb7a37f3
 type: Request
 parentId: wrk_06cfb846156c49ffb3373cb93dd5e899
-modified: 1700448880877
+modified: 1700645923969
 created: 1700130700363
-url: https://petstore.swagger.io/v2/user/FNLN22
+url: https://petstore.swagger.io/v2/user/FNLN24
 name: searchUser
 description: ""
 method: GET
