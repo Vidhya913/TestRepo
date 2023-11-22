@@ -12,6 +12,6 @@ jobs:
           inso-version: 3.5.0
           compression: bzip
       - name: Run test suites
-        run: inso run test "Demo Project001" --env UnitTest --ci
+        run: inso run test "DemoProject" --env UnitTest --ci
       - name: Generate declarative config
-        run: inso generate config "Demo Project001" --type declarative --ci
+        run: inso generate config "DemoProject" --type declarative --ci
